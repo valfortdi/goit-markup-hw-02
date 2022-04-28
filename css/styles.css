@@ -1,0 +1,251 @@
+/* основной текст #212121 */
+/* вторичный текст #757575 */
+/* акцент линк синий #2196F3; */
+/* белый #FFFFFF */
+/* белый футер rgba(255, 255, 255, 0,6) */
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-black-color: #212121;
+  --secondary-text: #757575;
+  --link-color: #2196f3;
+  --white: #ffffff;
+  --footer-white: rgba(255, 255, 255, 0.6);
+  --bg-dark-color: #2F303A;
+}
+body {
+  font-family: var(--main-font );
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  background-color: var(--white);
+  color: var(--main-black-color);
+}
+
+.active {
+  color: var(--link-color);
+}
+
+.logo {
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+letter-spacing: 0.03em;
+  
+}
+
+.logo-web {
+  color: var(--link-color);
+  font-family: var(--secondary-font);
+}
+
+.logo-studio {
+  color: var(--main-black-color);
+  font-family: var(--secondary-font);
+}
+
+.footer-logo-studio{
+  color: var(--white);
+  font-family: var(--secondary-font);
+}
+.logo {
+  text-decoration: none;
+}
+
+.site-nav-link,
+.site-nav-link:visited {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color: var(--main-black-color);
+}
+
+
+.site-nav-link:hover,
+.site-nav-link:focus
+ {
+
+  color: var(--link-color);
+}
+
+
+.address-nav-link,
+.address-nav-link:visited {
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-text);
+}
+
+.address-nav-link:hover,
+.address-nav-link:focus {
+  color: var(--link-color);
+
+}
+
+
+
+/* Hero index */
+
+.hero {
+  background: var(--bg-dark-color);
+}
+
+.dashboard {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.button-order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background: var(--link-color);
+  cursor: pointer;
+}
+
+.features-item-title {
+
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.features-item-subtitle {
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-text);
+}
+
+.title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-black-color);
+}
+
+.team-person {
+
+font-size: 16px;
+line-height: 1.19;
+
+}
+
+.team-person-name {
+
+  font-weight: 500;
+  color: var(--main-black-color);
+  text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.team-person-postion {
+  font-weight: 400;
+  color: var(--secondary-text);
+  text-align: center;
+letter-spacing: 0.03em;
+}
+
+.footer {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+background-color: var(--bg-dark-color);
+}
+
+.footer-address-kyiv {
+  color: var(--white);
+  font-style: normal;
+}
+
+.footer-mail-phone {
+color: var(--footer-white);
+font-style: normal;
+}
+
+.footer-mail-phone:hover, 
+.footer-mail-phone:focus {
+color: var(--link-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Porfolio */
+
+
+
+.filter-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+
+
+}
+
+.active-filter {
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background: var(--link-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white);
+  background: var(--link-color);
+}
+
+.portfolio-item-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-black-color);
+}
+
+.portfolio-item-product {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--secondary-text)
+}
+
+
+
+
+
+
+
+/* roboto 400,500, 700, 900 Raleway 700,  */

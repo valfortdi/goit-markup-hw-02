@@ -54,6 +54,7 @@ letter-spacing: 0.03em;
   text-decoration: none;
 }
 
+
 .site-nav-link,
 .site-nav-link:visited {
 font-weight: 500;
@@ -204,9 +205,10 @@ color: var(--link-color);
 
 
 .filter-btn {
+font-family: var(--main-font);  
 font-weight: 500;
 font-size: 16px;
-line-height: 1.62
+line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
